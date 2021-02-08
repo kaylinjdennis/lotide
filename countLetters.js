@@ -25,3 +25,5 @@ let counted = countLetters('Hello World');
 assertEqual(counted.l, 3);
 assertEqual(counted.o, 2);
 assertEqual(counted.e, 1);
+
+module.exports = countLetters;

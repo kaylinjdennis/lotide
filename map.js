@@ -37,3 +37,5 @@ assertArraysEqual(results2, [9, 49, 25, 169, 100, 64]);
 const arr = ['hello', 7, true, undefined, [1, 2, 3]];
 const results3 = map(arr, element => typeof element);
 assertArraysEqual(results3, ['string', 'number', 'boolean', 'undefined', 'object']);
+
+module.exports = map;

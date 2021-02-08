@@ -36,3 +36,5 @@ assertArraysEqual(positionsObj.h, [0]);
 assertArraysEqual(positionsObj.e, [1]);
 assertArraysEqual(positionsObj.l, [2, 3]);
 assertArraysEqual(positionsObj.o, [4]);
+
+module.exports = letterPositions;

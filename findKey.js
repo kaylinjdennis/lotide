@@ -37,3 +37,5 @@ assertEqual(findKey({
   c: 3,
   d: 4
 }, x => x === 7), undefined);
+
+module.exports = findKey;
