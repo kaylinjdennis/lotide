@@ -1,7 +1,7 @@
 {
-    "name": "lotide",
+    "name": "@kaylinjdennis/lotide",
     "version": "1.0.0",
-    "description": "",
+    "description": "Several useful functions",
     "main": "assertArraysEqual.js",
     "directories": {
         "test": "test"
@@ -13,7 +13,7 @@
         "type": "git",
         "url": "git+https://github.com/kaylinjdennis/lotide.git"
     },
-    "author": "",
+    "author": "Kaylin Dennis",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/kaylinjdennis/lotide/issues"
@@ -22,5 +22,8 @@
     "devDependencies": {
         "chai": "^4.3.0",
         "mocha": "^8.2.1"
+    },
+    "dependencies": {
+        "lotide": "^1.0.1"
     }
 }
